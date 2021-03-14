@@ -1,0 +1,7 @@
+<Response>
+  <Pause length="4" />
+  <Say>Hi</Say>
+  <Pause length="1" />
+  <Say>I would like to know the status of my order</Say>
+  <Pause length="1" />
+</Response>
