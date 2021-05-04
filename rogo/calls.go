@@ -35,7 +35,7 @@ func SendTranscription() {
 	defer resp.Body.Close()
 
 	if resp.StatusCode >= 200 && resp.StatusCode < 300 {
-		fmt.Println(string(colorGreen), "Sent call request")
+		fmt.Println(string(colorGreen), "Sent call request", string(colorReset))
 	} else {
 		printBody(&resp.Body)
 		fatalError("Call request failed")
